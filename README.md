@@ -2,10 +2,6 @@
 
 The Brief
 
-Community Science Museum Project
-Design an engaging, informative, and user-friendly website for a new interactive science museum opening in your city.
-
-The Brief
 An interactive science museum called the Community Science Museum is opening in your town/city. Its core target audience is primary and middle school children (ages 7-15) and families with young children.
 
 The website should be informative and engaging, encouraging viewers to visit the museum. It should also be responsive and easy to use on various devices. Peer/Teacher review is recommended.
@@ -26,21 +22,26 @@ The site should load quickly, with image sizes capped at 200kb.
 WCAG principles must be applied to hierarchy, navigation, and colour usage.
 The site must be responsive, attractive, and user-friendly across devices.
 SEO practices such as meta tags and alt text must be implemented.
-Using the template provide, write a report discussing what went well, what did not go well in the development process
+Using the template provided, write a report discussing what went well and what did not go well in the development process.
+
 User Stories
 
-As a developer, I want to plane the project using a project planning tool and keep it updated throughout the development process
+As a developer, I want to plan the project using a project planning tool and keep it updated throughout the development process.
 As a visitor, I want the website to appeal to children so they feel encouraged to visit the museum with their families.
 As a user, I want to browse through the deployed site without any issues.
-As a visitor, I want the website to adapt seamlessly to any device, so it is easy to interact with on mobile, tablet, or desktop.
+As a visitor, I want the website to adapt seamlessly to any device so it is easy to interact with on mobile, tablet, or desktop.
 As a visitor, I want at least 4-6 pages with clear navigation.
 As a visitor, I want the site to load quickly, even on slow connections, so I can easily access it.
 As a user with disabilities, I want the website to follow accessibility guidelines so I can navigate independently.
 As the site owner, I want good SEO to rank higher in search engines and attract more visitors.
 As a developer, I want the GitHub repository public to allow for collaboration and code review.
+
 Submission Guidelines
-The following must be added in your PDF report (use the template provided) and submit on moodle
+
+The following must be added to your PDF report (use the template provided) and submitted on moodle
 
 A live version link of the site
 A link to the site’s prototype
 A link to the project planning board and GitHub repository.
+
+Note: Resources and templates are provided under the project resources folder.
