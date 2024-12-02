@@ -1,1 +1,37 @@
 @import url(./variables.css);
+
+@font-face {
+  font-family: "KronaOne-Regular";
+  src: url(../assets/fonts/KronaOne-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-Medium";
+  src: url(../assets/fonts/Rubik-Medium.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-Regular";
+  src: url(../assets/fonts/Rubik-Regular.ttf) format("truetype");
+}
+
+@font-face {
+  font-family: "Rubik-SemiBold";
+  src: url(../assets/fonts/Rubik-SemiBold.ttf) format("truetype");
+}
+
+*::before,
+::after {
+  box-sizing: inherit;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+  background-color: #f9f9f9;
+}
