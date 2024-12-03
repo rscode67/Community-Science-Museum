@@ -41,3 +41,38 @@ body {
   font-family: krona;
   font-size: 28px;
 }
+
+/* Nav */
+
+header {
+  background: gray;
+  color: #fff;
+  padding: 10px 40px;
+}
+
+.logo {
+  color: #ff8c00;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav ul li {
+  margin-right: 70px;
+}
+
+/* Footer */
+
+.footer-container {
+  background: #1e2d4d;
+  color: #fff;
+  padding: 60px;
+}

@@ -1,6 +1,2 @@
 @import url(./variables.css);
 @import url(./reset.css);
-
-.navbar {
-  background-color: gray;
-}
