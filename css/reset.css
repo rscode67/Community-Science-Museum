@@ -76,3 +76,20 @@ nav ul li {
   color: #fff;
   padding: 60px;
 }
+
+.footer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.footer-h2 {
+  margin-bottom: 25px;
+}
+
+.footer-heading1,
+.footer-heading2 {
+  color: #fff;
+  display: block;
+  margin: 10px 0;
+}
