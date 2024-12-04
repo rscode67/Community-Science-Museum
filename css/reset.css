@@ -52,6 +52,7 @@ header {
 
 .logo {
   color: #ff8c00;
+  cursor: pointer;
 }
 
 .navbar {
@@ -67,6 +68,7 @@ nav ul {
 
 nav ul li {
   margin-right: 70px;
+  cursor: pointer;
 }
 
 /* Footer */
@@ -75,43 +77,127 @@ nav ul li {
   background: #1e2d4d;
   color: #fff;
   padding: 60px;
+  box-sizing: border-box; /* to include padding in width and height*/
 }
 
 .footer {
   display: flex;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-between;
+  gap: 30px; /* spacing between footer section */
+  align-items: flex-start;
 }
 
 .footer-h2 {
   margin-bottom: 25px;
+  font-size: 1.4rem;
 }
 
 .footer-heading1,
 .footer-heading2 {
   color: #fff;
-  display: block;
   margin: 10px 0;
 }
 
+.footer-heading1 a,
+.footer-heading2 a {
+  color: #fff;
+  font-size: 1rem;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.footer-heading1 a:hover,
+.footer-heading2 a:hover {
+  color: #1d6fe2;
+}
+
 .subscribe-container {
-  display: flex;
-  justify-content: flex-end;
-  padding: 5px;
-  margin: 10px;
+  width: 100%;
+  max-width: 400px;
+  padding: 9px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
   background-color: #f9f9f9;
-  max-width: 600px;
-  border-radius: 20px;
+  text-align: center;
+  box-sizing: border-box; /* include padding in width and height */
 }
 
 .subscribe-input {
-  padding: 14px 18px;
+  width: 90%;
+  padding: 10px;
+  margin: 10px 0;
+  border: 1px solid gray;
+  border-radius: 5px;
   font-size: 0.9rem;
-  border: 2px solid gray;
-  border-radius: 20px;
-  width: 80%;
+  box-sizing: border-box; /* include padding in width and height */
 }
 
 .subscribe-button {
-  padding: 12px 18px;
+  width: 90%;
+  padding: 10px;
+  background-color: #1d6fe2;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  font-size: 0.9rem;
+  cursor: pointer;
+  box-sizing: border-box; /* include padding in width and height */
+  transition: background-color 0.3s ease;
+}
+
+.subscribe-button:hover {
+  background-color: #1e2d4d;
+}
+
+.subscribe-text {
+  color: #1e2d4d;
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.social-media-icons {
+  margin-top: 20px;
+}
+
+.social-media-icons a {
+  color: #fff;
+  margin-right: 20px;
+  font-size: 0.9rem;
+  text-decoration: none;
+}
+
+.social-media-icons a:hover {
+  color: #1d6fe2;
+}
+
+.footer-line {
+  margin-top: 30px;
+  border-top: 1px solid gray;
+  width: 100%;
+  margin-bottom: 30px;
+}
+
+small {
+  display: block;
+  text-align: center;
+  font-size: 0.9rem;
+}
+
+/* Media Queries */
+
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .subscribe-container {
+    max-width: 90%;
+  }
+
+  .footer-heading1,
+  .footer-heading2 {
+    text-align: center;
+  }
 }
