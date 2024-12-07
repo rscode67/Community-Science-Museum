@@ -59,6 +59,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  height: 100px;
 }
 
 nav ul {
@@ -69,6 +71,33 @@ nav ul {
 nav ul li {
   margin-right: 70px;
   cursor: pointer;
+}
+
+.searchbar {
+  display: flex;
+  align-items: center;
+  padding: 5px 10px;
+  width: 200px;
+  border: 1px solid black;
+  border-radius: 15px;
+  margin-right: 20px;
+}
+
+.search-text p {
+  margin-left: 6px;
+  font-size: 0.9rem;
+  color: #333;
+}
+
+.search-button img {
+  width: 25px;
+  height: 25px;
+  cursor: pointer;
+  margin-left: 100px;
+}
+
+.searchbar:hover {
+  border-color: #1e2d4d;
 }
 
 /* Footer Container */
@@ -134,7 +163,7 @@ footer ul {
   padding: 9px 0;
   border: 1px solid gray;
   border-radius: 5px;
-  background-color: #f9f9f9;
+  background-color: rgb(77, 118, 153);
   text-align: center;
   box-sizing: border-box; /* include padding in width and height */
 }
@@ -199,7 +228,7 @@ footer ul {
 small {
   display: block;
   text-align: center;
-  font-size: 0.9rem;
+  font-size: 0.8rem;
 }
 
 /* Media Queries */
