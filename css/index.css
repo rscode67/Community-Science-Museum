@@ -1,2 +1,59 @@
 @import url(./variables.css);
 @import url(./reset.css);
+
+.banner {
+  background: url("../assets/images/museum-hall1.jpg");
+  padding: 60px 20px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  min-height: 497px;
+}
+
+/*
+
+.bottom-banner-content {
+  font-family: rubik-regular;
+  text-align: center;
+}
+
+.activity-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 15px;
+  margin: 40px 90px;
+  justify-content: center;
+}
+
+.activity-image {
+  max-width: 230px;
+  max-height: 270px;
+  min-height: 270px;
+}
+
+.activity-list {
+  background: #fff;
+  border: 1px solid #ddd;
+  border-radius: 7px;
+  text-align: center;
+  padding: 10px;
+}
+
+.background-image-main {
+  width: 100%;
+  max-height: 50%;
+  background-color: #1e2d4d;
+}
+
+.image-main-event {
+  max-width: 900px;
+  max-height: 500px;
+  min-height: 270px;
+}
+
+.image-second-event {
+  max-width: 700px;
+}
+*/
