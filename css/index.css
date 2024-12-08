@@ -30,13 +30,26 @@
   padding: 50px;
 }
 
-.activity-card-item {
-  background-color: #f9f9f9;
-  border: 1px solid black;
-  border-radius: 6px;
+.activity-card-item1,
+.activity-card-item2,
+.activity-card-item3 {
+  border: 1px solid none;
+  border-radius: 7px;
   overflow: hidden; /* ? */
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
   transition: transform 0.3 ease, box-shadow 0.3s ease;
+}
+
+.activity-card-item1 {
+  background-color: #f0c5c5;
+}
+
+.activity-card-item2 {
+  background-color: #d9844c;
+}
+
+.activity-card-item3 {
+  background-color: #f2de84;
 }
 
 .activity-image {
@@ -46,16 +59,16 @@
 }
 
 .activity-name {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   text-align: center;
-  padding: 10px;
-  color: blue;
+  padding: 70px;
+  letter-spacing: 1px;
+  font-family: rubik-semibold;
 }
 
 .activity-description {
   font-size: 1rem;
   text-align: center;
   padding: 10px;
-  background-color: #f9f9f9;
   height: 100px;
 }
