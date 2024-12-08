@@ -72,3 +72,9 @@
   padding: 10px;
   height: 100px;
 }
+
+.main-event-activity img {
+  display: flex;
+  justify-content: center;
+  width: 60%;
+}

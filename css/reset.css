@@ -37,11 +37,6 @@ body {
   font-family: rubik-regular, sans-serif;
 }
 
-.logo {
-  font-family: krona;
-  font-size: 28px;
-}
-
 /* Nav */
 
 header {
@@ -50,9 +45,12 @@ header {
   padding: 10px 40px;
 }
 
-.logo {
+.logo a {
   color: #ff8c00;
   cursor: pointer;
+  text-decoration: none;
+  font-family: krona;
+  font-size: 28px;
 }
 
 .navbar {
@@ -61,43 +59,56 @@ header {
   justify-content: space-between;
   width: 100%;
   height: 120px;
+  padding: 10px 15px;
 }
 
-nav ul {
+.navlist {
   display: flex;
   list-style: none;
+  gap: 10px;
 }
 
-nav ul li {
+.navlist li a {
   margin-right: 70px;
   cursor: pointer;
-}
-
-.searchbar {
-  display: flex;
-  align-items: center;
-  padding: 5px 10px;
-  width: 300px;
-  border: 1px solid #fff;
-  border-radius: 15px;
-  margin-right: 20px;
-}
-
-.search-text p {
-  margin-left: 9px;
-  font-size: 0.9rem;
+  text-decoration: none;
   color: #fff;
 }
 
-.search-button img {
-  width: 25px;
-  height: 25px;
-  cursor: pointer;
-  margin-left: 190px;
+.navlist li a:hover {
+  color: #1d6fe2;
 }
 
-.searchbar:hover {
-  border-color: #1d6fe2;
+.search-container {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  border-radius: 50px;
+  padding: 4px;
+  background-color: #f9f9f9;
+}
+
+.search-bar {
+  padding: 10px;
+  border: none;
+  border-radius: 50px;
+  outline: none;
+  width: 200px;
+  font-size: 0.9rem;
+}
+
+.search-button {
+  background-color: #1d6fe2;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 50px;
+  cursor: pointer;
+  font-size: 0.9rem;
+}
+
+.search-button:hover {
+  background-color: #1e2d4d;
 }
 
 /* Footer Container */
@@ -160,31 +171,31 @@ footer ul {
 .subscribe-container {
   width: 100%;
   max-width: 400px;
-  padding: 9px 0;
+  padding: 10px 0;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 50px;
   background-color: rgb(77, 118, 153);
   text-align: center;
   box-sizing: border-box; /* include padding in width and height */
 }
 
 .subscribe-input {
-  width: 90%;
+  width: 80%;
   padding: 10px;
   margin: 10px 0;
   border: 1px solid gray;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 0.9rem;
   box-sizing: border-box; /* include padding in width and height */
 }
 
 .subscribe-button {
-  width: 90%;
+  width: 80%;
   padding: 10px;
   background-color: #1d6fe2;
   color: #fff;
   border: none;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 0.9rem;
   cursor: pointer;
   box-sizing: border-box; /* include padding in width and height */
@@ -234,6 +245,11 @@ small {
 /* Media Queries */
 
 @media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: center;
+  }
+
   .footer-container {
     padding: 20px 20px;
   }
