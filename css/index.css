@@ -33,6 +33,7 @@
   font-size: 1.2rem;
   font-weight: 100;
   letter-spacing: 1px;
+  color: #1e2d4d;
 }
 
 .cta-button {
@@ -78,21 +79,22 @@
 }
 
 .activity-name {
-  font-size: 1.5rem;
+  font-size: 1.6rem;
   text-align: center;
   padding: 15px;
   font-family: rubik-regular;
   font-weight: 300;
   color: #1d6fe2;
-  letter-spacing: 2px;
+  letter-spacing: 1px;
   text-shadow: 1px 3px 7px rgb(161, 159, 159);
 }
 
 .activity-description {
-  font-size: 1rem;
+  font-size: 1.2rem;
   text-align: center;
   padding: 0 6px;
   letter-spacing: 1px;
+  color: #1e2d4d;
 }
 
 .main-event-activity {

@@ -41,7 +41,6 @@ body {
 
 header {
   background: #1e2d4d;
-  color: #fff;
   padding: 2px 60px;
 }
 
@@ -50,7 +49,7 @@ header {
   cursor: pointer;
   text-decoration: none;
   font-family: krona;
-  font-size: 1.3rem;
+  font-size: 1.6rem;
   text-shadow: 1px 3px 7px gray;
 }
 
@@ -69,24 +68,26 @@ header {
 }
 
 .navlist li a {
-  margin: 0 30px;
+  margin: 0 0 0 92px;
   cursor: pointer;
   text-decoration: none;
-  color: #fff;
+  color: #f9f9f9;
+  font-size: 1.2rem;
+  letter-spacing: 1px;
 }
 
 .navlist li a:hover {
-  color: #1d6fe2;
+  color: #ff8c00;
   transition: 0.3s ease;
 }
 
 .search-container {
   display: flex;
   align-items: center;
-  border: 1px solid gray;
+  border: 1px solid #1e2d4d;
   border-radius: 50px;
   padding: 4px;
-  background-color: #f9f9f9;
+  background-color: #4d7699;
 }
 
 .search-bar {
@@ -94,22 +95,24 @@ header {
   border: none;
   border-radius: 50px;
   outline: none;
-  width: 200px;
-  font-size: 0.9rem;
+  width: 230px;
+  font-size: 1rem;
+  background-color: #f9f9f9;
 }
 
 .search-button {
   background-color: #1d6fe2;
-  color: #fff;
+  color: #f9f9f9;
   border: none;
-  padding: 10px 20px;
+  padding: 10px 30px;
   border-radius: 50px;
   cursor: pointer;
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .search-button:hover {
-  background-color: #1e2d4d;
+  background-color: #ff8c00;
+  color: #1e2d4d;
 }
 
 .footer-container {
@@ -129,26 +132,27 @@ header {
 
 .footer-h2 {
   margin-bottom: 25px;
-  font-size: 1.4rem;
+  font-size: 1.6rem;
 }
 
 .footer-heading1,
 .footer-heading2 {
-  color: #fff;
+  color: #f9f9f9;
   margin: 15px 35px;
 }
 
 .footer-heading1 a,
 .footer-heading2 a {
-  color: #fff;
+  color: #f9f9f9;
   font-size: 1rem;
+  letter-spacing: 1px;
   display: block;
   margin-bottom: 10px;
 }
 
 .footer-heading1 a:hover,
 .footer-heading2 a:hover {
-  color: #1d6fe2;
+  color: #ff8c00;
   transition: 0.3s ease;
 }
 
@@ -166,7 +170,7 @@ footer ul {
   padding: 10px 0;
   border: 1px solid gray;
   border-radius: 50px;
-  background-color: rgb(77, 118, 153);
+  background-color: #4d7699;
   text-align: center;
   box-sizing: border-box;
 }
@@ -177,7 +181,7 @@ footer ul {
   margin: 10px 0;
   border: 1px solid gray;
   border-radius: 50px;
-  font-size: 0.9rem;
+  font-size: 1rem;
   box-sizing: border-box;
 }
 
@@ -185,22 +189,24 @@ footer ul {
   width: 80%;
   padding: 10px;
   background-color: #1d6fe2;
-  color: #fff;
+  color: #f9f9f9;
   border: none;
   border-radius: 50px;
-  font-size: 0.9rem;
+  font-size: 1rem;
+  letter-spacing: 1px;
   cursor: pointer;
   box-sizing: border-box;
   transition: background-color 0.3s ease;
 }
 
 .subscribe-button:hover {
-  background-color: #1e2d4d;
+  background-color: #ff8c00;
+  color: #1e2d4d;
 }
 
 .subscribe-text {
   color: #1e2d4d;
-  font-size: 1.2rem;
+  font-size: 1rem;
   margin-bottom: 10px;
 }
 
@@ -211,7 +217,7 @@ footer ul {
 }
 
 .social-media-icons a:hover {
-  color: #1d6fe2;
+  color: #ff8c00;
 }
 
 .footer-line {
