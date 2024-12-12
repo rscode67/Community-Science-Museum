@@ -1,2 +1,62 @@
 @import url(./variables.css);
 @import url(./reset.css);
+
+.ex-title {
+  font-size: 1.6rem;
+  text-align: center;
+  font-weight: 400;
+  color: #ff8c00;
+  margin: 40px 0;
+}
+
+.ex-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 60px;
+  padding: 50px;
+  margin: 0 85px;
+  min-height: 900px;
+}
+
+.ex-card {
+  border: 1px solid none;
+  border-radius: 7px;
+  overflow: hidden;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3 ease, box-shadow 0.3s ease;
+  height: 500px;
+}
+
+.learn-more {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+  margin-top: 40px;
+}
+
+.learn-more:hover {
+  text-shadow: 1px 1px 20px #4d7699;
+}
+
+.ex-image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+.ex-name {
+  font-size: 1.6rem;
+  text-align: center;
+  padding: 15px;
+  font-family: rubik-regular;
+  font-weight: 300;
+  color: #1d6fe2;
+}
+
+.ex-description {
+  font-size: 1.2rem;
+  text-align: center;
+  padding: 0 10px;
+  color: #1e2d4d;
+}
