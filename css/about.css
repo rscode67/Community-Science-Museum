@@ -1,0 +1,37 @@
+@import url(./variables.css);
+@import url(./reset.css);
+
+.about-banner {
+  background: url("../assets/images/math.jpg");
+  padding: 60px 20px;
+  text-align: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position-x: center;
+  background-position-y: top;
+  min-height: 560px;
+}
+
+h1 {
+  font-size: 2rem;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 1px 3px 7px gray;
+  letter-spacing: 1px;
+  color: #1d6fe2;
+  margin: 50px 0;
+}
+
+.about-main {
+  margin: 50px 200px;
+  font-size: 1.2rem;
+  line-height: 50px;
+}
+
+.top-line,
+.bottom-line {
+  width: 100%;
+  margin: 80px auto;
+  height: 0.5px;
+  background-color: #1e2d4d;
+}
