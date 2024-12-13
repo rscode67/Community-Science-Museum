@@ -1,2 +1,63 @@
 @import url(./variables.css);
 @import url(./reset.css);
+
+h1 {
+  font-size: 1.8rem;
+  text-align: center;
+  font-weight: 400;
+  color: #1d6fe2;
+  margin-top: 60px;
+  text-transform: uppercase;
+  text-shadow: 1px 3px 7px gray;
+  letter-spacing: 1px;
+  color: #1d6fe2;
+}
+
+.images {
+  display: block;
+  max-width: 900px;
+  height: 250px;
+  object-fit: cover;
+}
+
+.top,
+.middle,
+.bottom {
+  display: block;
+  justify-content: center;
+  margin: 80px 500px;
+}
+
+.top {
+  display: grid;
+  grid-template-columns: repeat(2, 300px);
+  gap: 50px;
+}
+
+.opening-hours {
+  background-color: #1d6fe2;
+  margin-left: 50px;
+  line-height: 30px;
+  min-height: 375px;
+  padding: 30px;
+}
+
+h2 {
+  margin: 20px 0;
+}
+
+.parking {
+  background-color: #1d6fe2;
+  min-width: 375px;
+  padding: 30px;
+}
+
+.middle {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}
+
+.bottom {
+  display: grid;
+  grid-template-rows: repeat(3, 1fr);
+}

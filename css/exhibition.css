@@ -2,11 +2,15 @@
 @import url(./reset.css);
 
 .ex-title {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   font-weight: 400;
-  color: #ff8c00;
-  margin: 40px 0;
+  color: #1d6fe2;
+  margin-top: 60px;
+  text-transform: uppercase;
+  text-shadow: 1px 3px 7px gray;
+  letter-spacing: 1px;
+  color: #1d6fe2;
 }
 
 .ex-container {
@@ -14,24 +18,26 @@
   grid-template-columns: repeat(3, 1fr);
   gap: 60px;
   padding: 50px;
-  margin: 0 85px;
-  min-height: 900px;
+  margin: 10px 85px;
+  max-height: 100%;
 }
 
 .ex-card {
+  background-color: #f9f9f9;
   border: 1px solid none;
   border-radius: 7px;
   overflow: hidden;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3 ease, box-shadow 0.3s ease;
-  height: 500px;
+  max-height: 100%;
 }
 
 .learn-more {
   display: flex;
   justify-content: center;
   text-decoration: none;
-  margin-top: 40px;
+  margin: 25px 0;
+  color: #ff8c00;
+  font-size: 1.2rem;
 }
 
 .learn-more:hover {

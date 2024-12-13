@@ -51,7 +51,7 @@
   gap: 40px;
   padding: 50px;
   margin: 0 85px;
-  height: 700px;
+  height: 800px;
 }
 
 .activity-card-item1,
@@ -94,7 +94,7 @@
 .activity-name {
   font-size: 1.6rem;
   text-align: center;
-  padding: 15px;
+  padding: 15px 20px;
   font-family: rubik-regular;
   font-weight: 300;
   color: #1d6fe2;
@@ -103,7 +103,7 @@
 .activity-description {
   font-size: 1.2rem;
   text-align: center;
-  padding: 0 6px;
+  padding: 0 10px;
 
   color: #1e2d4d;
 }
