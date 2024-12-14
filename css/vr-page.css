@@ -14,3 +14,38 @@
   border-radius: 10px;
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
 }
+
+.vr-title {
+  font-size: 2.5rem;
+  font-weight: 200;
+  text-align: center;
+  text-shadow: 1px 3px 7px gray;
+  letter-spacing: 1px;
+  color: #1d6fe2;
+  margin: 10px 0;
+}
+
+.vr-description {
+  margin: 50px 400px;
+  font-size: 1.2rem;
+  line-height: 50px;
+  color: #1e2d4d;
+}
+
+.top,
+.middle,
+.bottom {
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  color: #ff8c00;
+  font-size: 1.5rem;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 60px;
+}
+
+.cta-button:hover {
+  text-shadow: 1px 3px 20px #4d7699;
+}
