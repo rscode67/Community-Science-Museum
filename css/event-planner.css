@@ -19,10 +19,9 @@ h1 {
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
   color: #1d6fe2;
-  margin: 10px 0;
 }
 
-h2 {
+section h2 {
   font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1px;
@@ -40,7 +39,7 @@ section p {
   margin: 30px 0;
 }
 
-ul li {
+.event-main li {
   margin-left: 50px;
 }
 
@@ -49,7 +48,7 @@ h4 {
 }
 
 .event-main {
-  margin: 50px 300px;
+  margin: 60px 300px;
   font-size: 1.2rem;
   line-height: 50px;
   color: #1e2d4d;
@@ -58,7 +57,69 @@ h4 {
 .top-line,
 .bottom-line {
   width: 100%;
-  margin: 80px auto;
+  margin: 50px auto;
   height: 0.5px;
   background-color: #1e2d4d;
+}
+
+/* Media Queries */
+
+@media only screen and (max-width: 1090px) {
+  .event-banner {
+    padding: 40px 15px;
+    min-height: 400px;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 10px 0;
+  }
+
+  .event-main {
+    margin: 30px 150px;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 768px) {
+  .event-banner {
+    padding: 40px 15px;
+    min-height: 400px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  .event-main {
+    margin: 30px 80px;
+    font-size: 1.2rem;
+    line-height: 2;
+  }
+}
+
+@media (max-width: 376px) {
+  .event-banner {
+    padding: 40px 15px;
+    min-height: 400px;
+    margin-bottom: 20px;
+  }
+
+  h1 {
+    font-size: 1.8rem;
+    margin: 10px 0;
+  }
+
+  .event-main {
+    margin: 10px 40px;
+    font-size: 1rem;
+    line-height: 2;
+  }
+
+  .top-line,
+  .bottom-line {
+    width: 100%;
+    margin: 30px auto;
+  }
 }

@@ -10,11 +10,11 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="logo">
-          <a href="index.html"><p>Community</p>
-          <p>Science</p>
-          <p>Museum</p></a>
-        </div>
+        <a href="index.html" class="logo">
+          <span>Community</span>
+          <span>Science</span>
+          <span>Museum</span>
+        </a>
         <nav>
           <ul class="navlist">
             <li class="navlist-explore"><a href="index.html">Home</a></li>
@@ -22,17 +22,21 @@
           </ul>
         </nav>
         <div class="search-container">
-          <input type="text" class="search-bar" placeholder="Exhibition...">
-          <button class="search-button">Search</button>
+          <form action="exhibition.html" method="GET">
+            <input type="text" name="query" class="search-bar" placeholder="Exhibition">
+            <button class="search-button" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </header>
     <main>
       <section class="wolly-container">
-        <article class=>
-          <img src="../assets/images/museum-hall3.jpg" alt="A photo of a kid with vr googles" class="wolly-images">
-          <img src="../assets/images/mammoth.jpg" alt="A photo of a student painting with vr googles" class="wolly-images">
-        </article>
+        <figure>
+          <img src="../assets/images/museum-hall3.jpg" alt="A young visitor exploring a museum exhibit with VR googles" class="wolly-images">
+        </figure>
+        <figure> 
+        <img src="../assets/images/mammoth.jpg" alt="A skeleton of an iconic creature Mammoth" class="wolly-images"></figure> 
+        
       </section>
       <section class="wolly-des-container">
       <h1 class="wolly-title">Wolly Mammoth</h1>
@@ -44,7 +48,6 @@
       </article>
     </section>
     <a href="visit.html" class="cta-button">Plan Your Visit</a>
-        </div>
     </main>
     <footer>
       <div class="footer-container">
@@ -52,20 +55,19 @@
         <div class="footer-heading1">
           <h2 class="footer-h2">Explore</h2>
           <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/education">Education</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="exhibition.html">Events</a></li>
+            <li><a href="event-planner.html">Education</a></li>
           </ul>
         </div>
         <div class="footer-heading2">
           <h2 class="footer-h2">Visit</h2>
           <ul>
-            <li><a href="/plan-a-visit">Plan a visit</a></li>
-            <li><a href="/group-trips">Group trips</a></li>
-            <li><a href="/cafe">Cafe</a></li>
+            <li><a href="visit.html">Plan a visit</a></li>
+            <li><a href="visit.html">Group trips</a></li>
+            <li><a href="visit.html">Cafe</a></li>
           </ul>
         </div>
-        
         <div class="subscribe-container">
           <p class="subscribe-text">Subscribe to our newsletter</p>
           <input class="subscribe-iDon't just read about history—step into it. Dive deeper into the exhibits and make learning an adventure with our cutting-edge VR technologynput" type="email" placeholder="Enter your email">
@@ -73,9 +75,9 @@
         </div>
         <div class="social-media-icons">
           <a href="https://www.facebook.com/" target="_blank"><img src="../assets/icons/facebook.png" alt="facebook icon" class="icons"></a>
-          <a href="https://www.instagram.com" target="_blank"><img src="../assets/icons/instagram.png" alt="instagram icon" class="icons"></a>
-          <a href="https://www.youtube.com" target="_blank"><img src="../assets/icons/youtube.png" alt="youtube icon" class="icons"></a>
-          <a href="https://www.linkedin.com" target="_blank"><img src="../assets/icons/linkedin.png" alt="linkedin icon" class="icons"></a>
+          <a href="https://www.instagram.com" target="_blank"><img src="../assets/icons/instagram.png" alt="Instagram icon" class="icons"></a>
+          <a href="https://www.youtube.com" target="_blank"><img src="../assets/icons/youtube.png" alt="Youtube icon" class="icons"></a>
+          <a href="https://www.linkedin.com" target="_blank"><img src="../assets/icons/linkedin.png" alt="Linkedin icon" class="icons"></a>
         </div>
         <div class="footer-line"></div>
         <small>&copy; Community Science Museum by Reuel Santos</small>

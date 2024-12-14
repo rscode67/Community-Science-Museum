@@ -10,76 +10,141 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="logo">
-          <a href="index.html"><p>Community</p>
-          <p>Science</p>
-          <p>Museum</p></a>
-        </div>
+        <a href="index.html" class="logo">
+          <span>Community</span>
+          <span>Science</span>
+          <span>Museum</span>
+        </a>
         <nav>
           <ul class="navlist">
             <li class="navlist-explore"><a href="index.html">Home</a></li>
-            <li class="navlist-visit"><a href="visit.html" >Visit Us</a></li>
+            <li class="navlist-visit"><a href="visit.html">Visit Us</a></li>
           </ul>
         </nav>
         <div class="search-container">
-          <input type="text" class="search-bar" placeholder="Exhibition...">
-          <button class="search-button">Search</button>
+          <form action="exhibition.html" method="GET">
+            <input
+              type="text"
+              name="query"
+              class="search-bar"
+              placeholder="Exhibition"
+            />
+            <button class="search-button" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </header>
     <main>
       <section class="vr-container">
-        <article class=>
-          <img src="../assets/images/virtual-ex.jpg" alt="A photo of a kid with vr googles" class="vr-images">
-          <img src="../assets/images/vr-painting.jpg" alt="A photo of a student painting with vr googles" class="vr-images">
-        </article>
+        <figure>
+          <img
+            src="../assets/images/virtual-ex.jpg"
+            alt="A child wearing VR googles experiencing a virtual reality exhibit"
+            class="vr-images"
+          />
+        </figure>
+        <figure>
+          <img
+            src="../assets/images/vr-painting.jpg"
+            alt="A student painting in a vitual reality setting with VR googles"
+            class="vr-images"
+          />
+        </figure>
       </section>
       <section class="vr-des-container">
-      <h1 class="vr-title">Virtual Reality Experience at the Museum</h1>
-      <article class="vr-description">
-        <p class="top">Embark on an unforgettable journey with our Virtual Reality (VR) experience, where technology and history converge to bring the past, present, and future to life! Step into immersive, 360-degree environments that allow you to explore ancient civilizations, walk among dinosaurs, or travel through space—experiences that were once only possible in your imagination.</p>
-        <p class="middle">Our state-of-the-art VR stations offer a fully interactive, hands-on learning experience, guiding you through fascinating historical events, cultural landmarks, and scientific wonders. Feel as if you are part of the story, whether you're uncovering ancient treasures, experiencing life in the Jurassic period, or observing the wonders of the human body up close.</p>
-        <p class="bottom">Perfect for visitors of all ages, the Virtual Reality experience offers an engaging and educational way to connect with history, science, and art in ways you’ve never experienced before. Whether you’re a history enthusiast, a science lover, or just looking for an exciting adventure, our VR experience will transport you into new realms of discovery and understanding.</p>
-        <h4>Don't just read about history—step into it. Dive deeper into the exhibits and make learning an adventure with our cutting-edge VR technology!</h4>
-      </article>
-    </section>
-    <a href="visit.html" class="cta-button">Plan Your Visit</a>
-        </div>
+        <h1 class="vr-title">Virtual Reality Experience at the Museum</h1>
+        <article class="vr-description">
+          <p class="top">
+            Embark on an unforgettable journey with our Virtual Reality (VR)
+            experience, where technology and history converge to bring the past,
+            present, and future to life! Step into immersive, 360-degree
+            environments that allow you to explore ancient civilizations, walk
+            among dinosaurs, or travel through space—experiences that were once
+            only possible in your imagination.
+          </p>
+          <p class="middle">
+            Our state-of-the-art VR stations offer a fully interactive, hands-on
+            learning experience, guiding you through fascinating historical
+            events, cultural landmarks, and scientific wonders. Feel as if you
+            are part of the story, whether you're uncovering ancient treasures,
+            experiencing life in the Jurassic period, or observing the wonders
+            of the human body up close.
+          </p>
+          <p class="bottom">
+            Perfect for visitors of all ages, the Virtual Reality experience
+            offers an engaging and educational way to connect with history,
+            science, and art in ways you’ve never experienced before. Whether
+            you’re a history enthusiast, a science lover, or just looking for an
+            exciting adventure, our VR experience will transport you into new
+            realms of discovery and understanding.
+          </p>
+          <h4>
+            Don't just read about history—step into it. Dive deeper into the
+            exhibits and make learning an adventure with our cutting-edge VR
+            technology!
+          </h4>
+        </article>
+      </section>
+      <a href="visit.html" class="cta-button">Plan Your Visit</a>
     </main>
     <footer>
       <div class="footer-container">
         <div class="footer">
-        <div class="footer-heading1">
-          <h2 class="footer-h2">Explore</h2>
-          <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/education">Education</a></li>
-          </ul>
+          <div class="footer-heading1">
+            <h2 class="footer-h2">Explore</h2>
+            <ul>
+              <li><a href="/about">About us</a></li>
+              <li><a href="/events">Events</a></li>
+              <li><a href="/education">Education</a></li>
+            </ul>
+          </div>
+          <div class="footer-heading2">
+            <h2 class="footer-h2">Visit</h2>
+            <ul>
+              <li><a href="/plan-a-visit">Plan a visit</a></li>
+              <li><a href="/group-trips">Group trips</a></li>
+              <li><a href="/cafe">Cafe</a></li>
+            </ul>
+          </div>
+          <div class="subscribe-container">
+            <p class="subscribe-text">Subscribe to our newsletter</p>
+            <input
+              class="subscribe-input"
+              type="email"
+              placeholder="Enter your email"
+            />
+            <button class="subscribe-button">Subscribe</button>
+          </div>
+          <div class="social-media-icons">
+            <p class="social-media-heading">Follow us on</p>
+            <a href="https://www.facebook.com/" target="_blank"
+              ><img
+                src="../assets/icons/facebook.png"
+                alt="facebook icon"
+                class="icons"
+            /></a>
+            <a href="https://www.instagram.com" target="_blank"
+              ><img
+                src="../assets/icons/instagram.png"
+                alt="instagram icon"
+                class="icons"
+            /></a>
+            <a href="https://www.youtube.com" target="_blank"
+              ><img
+                src="../assets/icons/youtube.png"
+                alt="youtube icon"
+                class="icons"
+            /></a>
+            <a href="https://www.linkedin.com" target="_blank"
+              ><img
+                src="../assets/icons/linkedin.png"
+                alt="linkedin icon"
+                class="icons"
+            /></a>
+          </div>
+          <div class="footer-line"></div>
+          <small>&copy; Community Science Museum by Reuel Santos</small>
         </div>
-        <div class="footer-heading2">
-          <h2 class="footer-h2">Visit</h2>
-          <ul>
-            <li><a href="/plan-a-visit">Plan a visit</a></li>
-            <li><a href="/group-trips">Group trips</a></li>
-            <li><a href="/cafe">Cafe</a></li>
-          </ul>
-        </div>
-        
-        <div class="subscribe-container">
-          <p class="subscribe-text">Subscribe to our newsletter</p>
-          <input class="subscribe-input" type="email" placeholder="Enter your email">
-          <button class="subscribe-button">Subscribe</button>
-        </div>
-        <div class="social-media-icons">
-          <p class="social-media-heading">Follow us on</p>
-          <a href="https://www.facebook.com/" target="_blank"><img src="../assets/icons/facebook.png" alt="facebook icon" class="icons"></a>
-          <a href="https://www.instagram.com" target="_blank"><img src="../assets/icons/instagram.png" alt="instagram icon" class="icons"></a>
-          <a href="https://www.youtube.com" target="_blank"><img src="../assets/icons/youtube.png" alt="youtube icon" class="icons"></a>
-          <a href="https://www.linkedin.com" target="_blank"><img src="../assets/icons/linkedin.png" alt="linkedin icon" class="icons"></a>
-        </div>
-        <div class="footer-line"></div>
-        <small>&copy; Community Science Museum by Reuel Santos</small>
       </div>
     </footer>
   </body>

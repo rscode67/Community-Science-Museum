@@ -66,3 +66,48 @@
   padding: 0 10px;
   color: #1e2d4d;
 }
+
+/* Media Queries */
+
+@media only screen and (max-width: 1090px) {
+  .ex-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 30px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 768px) {
+  .ex-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 20px;
+  }
+}
+
+@media (max-width: 376px) {
+  .ex-container {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 30px;
+    margin: 20px;
+  }
+
+  .ex-title {
+    font-size: 1.8rem;
+  }
+
+  .ex-name {
+    font-size: 1.5rem;
+  }
+
+  .ex-description {
+    font-size: 1rem;
+  }
+
+  .learn-more {
+    font-size: 1rem;
+  }
+}

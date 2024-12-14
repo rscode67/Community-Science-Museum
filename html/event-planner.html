@@ -13,11 +13,11 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="logo">
-          <a href="index.html"><p>Community</p>
-          <p>Science</p>
-          <p>Museum</p></a>
-        </div>
+        <a href="index.html" class="logo">
+          <span>Community</span>
+          <span>Science</span>
+          <span>Museum</span>
+        </a>
         <nav>
           <ul class="navlist">
             <li class="navlist-explore"><a href="exhibition.html" >Explore</a></li>
@@ -25,8 +25,10 @@
           </ul>
         </nav>
         <div class="search-container">
-          <input type="text" class="search-bar" placeholder="Exhibition...">
-          <button class="search-button">Search</button>
+          <form action="exhibition.html" method="GET">
+            <input type="text" name="query" class="search-bar" placeholder="Exhibition">
+            <button class="search-button" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </header>
@@ -36,7 +38,7 @@
     <section class="event-main">
       <div class="top-line"></div>
       <h1>Event Planner</h1>
-      <h2>"Discover, Create, Explore: A Day of Fun at the Children’s Museum"</h2>
+      <h2>"Discover, Create, Explore: A Day of Fun at the Community Science Museum"</h2>
         <p>Planning an event at the Community Science Museum is an opportunity to provide an engaging, educational, and fun-filled experience for children and families. The goal of the event is to foster creativity, learning, and hands-on exploration in a dynamic, interactive environment. The event will be designed to entertain children while simultaneously sparking their curiosity, expanding their knowledge, and enhancing their social and cognitive skills.
         The event will offer a series of hands-on activities, exhibits, and performances designed for children of all ages. Families can explore interactive displays, engage in creative workshops, and participate in themed experiences that cover various subjects, such as science, art, history, and nature.</p>
         <h3>Target Audience</h3>
@@ -91,17 +93,17 @@
         <div class="footer-heading1">
           <h2 class="footer-h2">Explore</h2>
           <ul>
-            <li><a href="/about">About us</a></li>
-            <li><a href="/events">Events</a></li>
-            <li><a href="/education">Education</a></li>
+            <li><a href="about.html">About us</a></li>
+            <li><a href="exhibition.html">Events</a></li>
+            <li><a href="event-planner.html">Education</a></li>
           </ul>
         </div>
         <div class="footer-heading2">
           <h2 class="footer-h2">Visit</h2>
           <ul>
-            <li><a href="/plan-a-visit">Plan a visit</a></li>
-            <li><a href="/group-trips">Group trips</a></li>
-            <li><a href="/cafe">Cafe</a></li>
+            <li><a href="visit.html">Plan a visit</a></li>
+            <li><a href="visit.html">Group trips</a></li>
+            <li><a href="visit.html">Cafe</a></li>
           </ul>
         </div>
         

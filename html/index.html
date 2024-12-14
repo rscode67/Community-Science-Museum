@@ -13,11 +13,11 @@
   <body>
     <header>
       <div class="navbar">
-        <div class="logo">
-          <a href="#"><p>Community</p>
-          <p>Science</p>
-          <p>Museum</p></a>
-        </div>
+        <a href="index.html" class="logo">
+          <span>Community</span>
+          <span>Science</span>
+          <span>Museum</span>
+        </a>
         <nav>
           <ul class="navlist">
             <li class="navlist-explore"><a href="exhibition.html" >Explore</a></li>
@@ -25,16 +25,17 @@
           </ul>
         </nav>
         <div class="search-container">
-          <input type="text" class="search-bar" placeholder="Exhibition...">
-          <button class="search-button">Search</button>
+          <form action="exhibition.html" method="GET">
+            <input type="text" name="query" class="search-bar" placeholder="Exhibition">
+            <button class="search-button" type="submit">Search</button>
+          </form>
         </div>
       </div>
     </header>
     <main>
       <section class="banner">
-        <div class="image-banner">
-          </div>
-      </section>
+        
+        </section>
       <section>
         <div class="bottom-banner-content">
           <h1 class="welcome">Welcome to community science museum</h1>
@@ -107,16 +108,16 @@
         <div class="footer-heading1">
           <h2 class="footer-h2">Explore</h2>
           <ul>
-            <li><a href="#">About us</a></li>
+            <li><a href="about.html">About us</a></li>
             <li><a href="exhibition.html">Events</a></li>
-            <li><a href="visit.html">Education</a></li>
+            <li><a href="event-planner.html">Education</a></li>
           </ul>
         </div>
         <div class="footer-heading2">
           <h2 class="footer-h2">Visit</h2>
           <ul>
             <li><a href="visit.html">Plan a visit</a></li>
-            <li><a href="grouptour.html">Group trips</a></li>
+            <li><a href="visit.html">Group trips</a></li>
             <li><a href="visit.html">Cafe</a></li>
           </ul>
         </div>
