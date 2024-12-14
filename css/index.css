@@ -21,24 +21,27 @@
 }
 
 .welcome {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   font-weight: 200;
   text-transform: uppercase;
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
   color: #1d6fe2;
+  margin-top: 60px;
 }
 
 .welcome-sub {
-  font-size: 1.2rem;
+  font-size: 1.5rem;
   font-weight: 100;
   letter-spacing: 1px;
   color: #1e2d4d;
+  margin-top: 20px;
+  margin-bottom: 10px;
 }
 
 .cta-button {
   color: #ff8c00;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .cta-button:hover {
@@ -92,7 +95,7 @@
 }
 
 .activity-name {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   padding: 15px 20px;
   font-family: rubik-regular;
@@ -141,7 +144,7 @@
   display: flex;
   flex-direction: column;
   gap: 80px;
-  margin: 0 150px;
+  margin: 0 200px;
   height: 1090px;
 }
 

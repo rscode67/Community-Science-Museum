@@ -2,7 +2,7 @@
 @import url(./reset.css);
 
 .ex-title {
-  font-size: 1.8rem;
+  font-size: 2.5rem;
   text-align: center;
   font-weight: 400;
   color: #1d6fe2;
@@ -37,7 +37,7 @@
   text-decoration: none;
   margin: 25px 0;
   color: #ff8c00;
-  font-size: 1.2rem;
+  font-size: 1.5rem;
 }
 
 .learn-more:hover {
@@ -52,7 +52,7 @@
 }
 
 .ex-name {
-  font-size: 1.6rem;
+  font-size: 1.8rem;
   text-align: center;
   padding: 15px;
   font-family: rubik-regular;
