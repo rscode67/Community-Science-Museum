@@ -27,7 +27,7 @@
 }
 
 .vr-description {
-  margin: 50px 400px;
+  margin: 50px 250px;
   font-size: 1.2rem;
   line-height: 50px;
   color: #1e2d4d;
@@ -49,4 +49,77 @@
 
 .cta-button:hover {
   text-shadow: 1px 3px 20px #4d7699;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1090px) {
+  .vr-container {
+    margin: 30px;
+  }
+
+  .vr-images {
+    max-width: 100%;
+    height: 400px;
+  }
+
+  .vr-title {
+    font-size: 2rem;
+  }
+
+  .vr-description {
+    margin: 30px 100px;
+  }
+
+  .cta-button {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .vr-container {
+    margin: 30px;
+  }
+
+  .vr-images {
+    max-width: 100%;
+    height: 300px;
+  }
+
+  .vr-title {
+    font-size: 1.7rem;
+  }
+
+  .vr-description {
+    margin: 30px 80px;
+    font-size: 1.2rem;
+  }
+
+  .cta-button {
+    font-size: 1.2rem;
+  }
+}
+
+@media screen and (max-width: 376px) {
+  .vr-container {
+    margin: 30px;
+  }
+
+  .vr-images {
+    max-width: 100%;
+    height: 200px;
+  }
+
+  .vr-title {
+    font-size: 1.6rem;
+  }
+
+  .vr-description {
+    margin: 20px 60px;
+    font-size: 1rem;
+  }
+
+  .cta-button {
+    font-size: 1rem;
+  }
 }

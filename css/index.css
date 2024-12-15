@@ -107,7 +107,6 @@
   font-size: 1.2rem;
   text-align: center;
   padding: 0 10px;
-
   color: #1e2d4d;
 }
 
@@ -115,7 +114,7 @@
   background-image: url(../assets/images/lab.jpg);
   background-position: center;
   width: 100%;
-  height: 35vh;
+  height: 350px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -171,9 +170,7 @@
   font-size: 1.2rem;
   color: #1e2d4d;
   letter-spacing: 2px;
-  margin-top: 100px;
-  margin-left: 40px;
-  margin-right: 40px;
+  margin: 100px 20px;
   width: 50%;
   line-height: 25px;
 }
@@ -181,23 +178,23 @@
 .back-to-top {
   display: flex;
   justify-content: center;
-  margin-top: 30px;
+  margin-top: 90px;
 }
 
 /* Media Queries */
 
-@media only screen and (max-width: 1090px) {
+@media screen and (max-width: 1090px) {
   .activity-container {
     display: grid;
-    grid-template-columns: 1fr; /* Stack the activity cards */
+    grid-template-columns: 1fr;
     padding: 10px;
-    margin: 0 90px;
+    margin: 20px 150px;
     height: 1500px;
   }
 
   .welcome {
     font-size: 2rem;
-    margin-top: 30px;
+    margin-top: 20px;
   }
 
   .welcome-sub {
@@ -208,14 +205,36 @@
     font-size: 1.2rem;
   }
 
+  .activity-image {
+    width: 100%;
+    height: 350px;
+  }
+
+  .activity-name {
+    font-size: 1.5rem;
+  }
+
+  .activity-description {
+    font-size: 1.1rem;
+  }
+
+  .mid-background {
+    height: 300px;
+  }
+
+  .mid-background-image {
+    width: 100%;
+    height: 400px;
+  }
+
   .second-activity-container {
     margin: 0 20px;
-    gap: 50px;
   }
 
   .second-activity-item {
     flex-direction: column;
     text-align: center;
+    gap: 20px;
   }
 
   .second-activity-image {
@@ -224,70 +243,95 @@
   }
 
   .second-activity-description {
-    width: 100%;
-    margin-left: 0;
-    margin-right: 0;
     font-size: 1rem;
-    line-height: 1.5;
+    width: 900px;
+    margin: 20px;
   }
 
   .back-to-top {
     font-size: 1rem;
     padding: 10px 20px;
+    margin-bottom: 10px;
   }
 
-  .mid-background {
+  /*.mid-background {
     height: 50vh;
   }
 
   .mid-background-image {
     width: 500px;
     height: auto;
-  }
+  }*/
 }
 
 @media (max-width: 768px) {
   .activity-container {
     display: grid;
-    grid-template-columns: 1fr; /* Stack the activity cards */
+    grid-template-columns: 1fr;
     padding: 10px;
-    margin: 0 90px;
-    height: 900px;
+    margin: 20px 50px;
+    height: 1400px;
   }
 
   .welcome {
-    font-size: 1.6rem;
-    margin-top: 30px;
-  }
-
-  .activity-image {
-    height: 60%;
-  }
-
-  .activity-name {
-    font-size: 1.5rem;
+    font-size: 1.4rem;
   }
 
   .welcome-sub {
-    font-size: 1.2rem;
-    font-weight: 100;
-    margin-top: 10px;
+    font-size: 1.1rem;
   }
 
   .cta-button {
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+  }
+
+  .activity-image {
+    width: 100%;
+    height: 300px;
+  }
+
+  .activity-name {
+    font-size: 1.4rem;
+  }
+
+  .activity-description {
+    font-size: 1rem;
+  }
+
+  .mid-background {
+    height: 200px;
   }
 
   .mid-background-image {
     width: 70%;
+    height: 300px;
+    margin-left: 70px;
   }
 
   .second-activity-container {
-    display: block;
-    justify-content: center;
-    gap: 80px;
-    margin: 0 100px;
-    height: 1090px;
+    margin: 10px 0;
+  }
+
+  .second-activity-item {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .second-activity-image {
+    width: 70%;
+    height: 200px;
+  }
+
+  .second-activity-description {
+    font-size: 1rem;
+    width: 100%;
+    margin: 5px 0;
+  }
+
+  .back-to-top {
+    font-size: 1rem;
+    padding: 10px 20px;
+    margin-bottom: 10px;
   }
 }
 
@@ -295,25 +339,55 @@
   .activity-container {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 40px;
+    gap: 10px;
     padding: 50px;
-    margin: 0 85px;
-    height: 800px;
+    margin: 0 10px;
+    height: 1350px;
   }
 
-  .ex-title {
-    font-size: 1.8rem;
+  .welcome {
+    font-size: 1.3rem;
+    margin: 0 5px;
   }
 
-  .ex-name {
-    font-size: 1.5rem;
+  .welcome-sub {
+    font-size: 0.8rem;
+    font-weight: 100;
+    margin: 0 10px;
   }
 
-  .ex-description {
+  .cta-button {
     font-size: 1rem;
   }
 
-  .learn-more {
+  .activity-name {
+    font-size: 1.2rem;
+  }
+
+  .activity-description {
+    font-size: 0.9rem;
+  }
+
+  .mid-background {
+    margin: 2px 0;
+    height: 250px;
+  }
+
+  .mid-background-image {
+    margin-left: 55px;
+    height: 200px;
+  }
+
+  .second-activity-container {
+    margin: 0 20px;
+  }
+
+  .second-activity-item {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .second-activity-description {
     font-size: 1rem;
   }
 }
