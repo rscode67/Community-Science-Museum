@@ -1,0 +1,10 @@
+:root {
+  --color-primary: #1d6fe2;
+  --color-secondary: #1e2d4d;
+  --button-primary: #ff8c00;
+  --background-color: #1e2d4d;
+  --font-size-card-title: 1.8rem;
+  --font-size-sub: 1.5rem;
+  --font-size-title: 2.5rem;
+  --font-size-description: 1.2rem;
+}

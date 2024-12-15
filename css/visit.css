@@ -2,15 +2,14 @@
 @import url(./reset.css);
 
 h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-title);
   text-align: center;
   font-weight: 400;
-  color: #1d6fe2;
+  color: var(--color-primary);
   margin-top: 60px;
   text-transform: uppercase;
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
-  color: #1d6fe2;
 }
 
 .images {
@@ -57,15 +56,15 @@ h1 {
 
 section h2 {
   margin: 20px 0;
-  font-size: 1.6rem;
+  font-size: var(--font-size-sub);
   font-family: rubik-regular;
   font-weight: 300;
-  color: #1d6fe2;
+  color: var(--color-primary);
 }
 
 section p {
-  color: #1e2d4d;
-  font-size: 1.2rem;
+  color: var(--color-secondary);
+  font-size: var(--font-size-description);
 }
 
 .parking,

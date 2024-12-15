@@ -13,20 +13,20 @@
 }
 
 h1 {
-  font-size: 2.5rem;
+  font-size: var(--font-size-title);
   font-weight: 200;
   text-align: center;
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
-  color: #1d6fe2;
+  color: var(--color-primary);
   margin: 50px 0;
 }
 
 .about-main {
   margin: 50px 300px;
-  font-size: 1.2rem;
+  font-size: var(--font-size-description);
   line-height: 50px;
-  color: #1e2d4d;
+  color: var(--color-secondary);
 }
 
 .top-line,
@@ -34,7 +34,7 @@ h1 {
   width: 100%;
   margin: 80px auto;
   height: 0.5px;
-  background-color: #1e2d4d;
+  background-color: var(--background-color);
 }
 
 /* Media Queries */

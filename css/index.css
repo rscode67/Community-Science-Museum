@@ -21,27 +21,27 @@
 }
 
 .welcome {
-  font-size: 2.5rem;
+  font-size: var(--font-size-title);
   font-weight: 200;
   text-transform: uppercase;
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
-  color: #1d6fe2;
+  color: var(--color-primary);
   margin-top: 60px;
 }
 
 .welcome-sub {
-  font-size: 1.5rem;
+  font-size: var(--font-size-sub);
   font-weight: 100;
   letter-spacing: 1px;
-  color: #1e2d4d;
+  color: var(--color-secondary);
   margin-top: 20px;
   margin-bottom: 10px;
 }
 
 .cta-button {
-  color: #ff8c00;
-  font-size: 1.5rem;
+  color: var(--button-primary);
+  font-size: var(--font-size-sub);
 }
 
 .cta-button:hover {
@@ -95,19 +95,19 @@
 }
 
 .activity-name {
-  font-size: 1.8rem;
+  font-size: var(--font-size-card-title);
   text-align: center;
   padding: 15px 20px;
   font-family: rubik-regular;
   font-weight: 300;
-  color: #1d6fe2;
+  color: var(--color-primary);
 }
 
 .activity-description {
-  font-size: 1.2rem;
+  font-size: var(--font-size-description);
   text-align: center;
   padding: 0 10px;
-  color: #1e2d4d;
+  color: var(--color-secondary);
 }
 
 .mid-background {
@@ -167,8 +167,8 @@
 
 .second-activity-description {
   align-items: center;
-  font-size: 1.2rem;
-  color: #1e2d4d;
+  font-size: var(--font-size-description);
+  color: var(--color-secondary);
   letter-spacing: 2px;
   margin: 100px 20px;
   width: 50%;

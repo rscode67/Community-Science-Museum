@@ -40,12 +40,12 @@ body {
 /* Nav */
 
 header {
-  background: #1e2d4d;
+  background: var(--background-color);
   padding: 20px 60px;
 }
 
 .logo span {
-  color: #ff8c00;
+  color: var(--button-primary);
   cursor: pointer;
   text-decoration: none;
   font-family: krona;
@@ -89,7 +89,7 @@ a {
 .search-container {
   display: flex;
   align-items: center;
-  border: 1px solid #1e2d4d;
+  border: 1px solid var(--background-color);
   border-radius: 50px;
   padding: 4px;
   background-color: #4d7699;
@@ -106,7 +106,7 @@ a {
 }
 
 .search-button {
-  background-color: #1d6fe2;
+  background-color: var(--color-primary);
   color: #f9f9f9;
   border: none;
   padding: 10px 30px;
@@ -141,7 +141,7 @@ a {
 }
 
 .footer-container {
-  background: #1e2d4d;
+  background: var(--background-color);
   color: #fff;
   padding: 50px 200px;
   box-sizing: border-box;

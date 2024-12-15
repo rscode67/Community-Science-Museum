@@ -2,15 +2,15 @@
 @import url(./reset.css);
 
 .ex-title {
-  font-size: 2.5rem;
+  font-size: var(--font-size-title);
   text-align: center;
   font-weight: 400;
-  color: #1d6fe2;
+  color: var(--color-primary);
   margin-top: 60px;
   text-transform: uppercase;
   text-shadow: 1px 3px 7px gray;
   letter-spacing: 1px;
-  color: #1d6fe2;
+  color: var(--color-primary);
 }
 
 .ex-container {
@@ -36,8 +36,8 @@
   justify-content: center;
   text-decoration: none;
   margin: 20px 0;
-  color: #ff8c00;
-  font-size: 1.5rem;
+  color: var(--button-primary);
+  font-size: var(--font-size-sub);
 }
 
 .learn-more:hover {
@@ -52,19 +52,19 @@
 }
 
 .ex-name {
-  font-size: 1.8rem;
+  font-size: var(--font-size-card-title);
   text-align: center;
   padding: 15px;
   font-family: rubik-regular;
   font-weight: 300;
-  color: #1d6fe2;
+  color: var(--color-primary);
 }
 
 .ex-description {
-  font-size: 1.2rem;
+  font-size: var(--font-size-description);
   text-align: center;
   padding: 0 10px;
-  color: #1e2d4d;
+  color: var(--color-secondary);
 }
 
 /* Media Queries */
