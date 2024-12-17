@@ -103,6 +103,10 @@
   color: var(--color-primary);
 }
 
+.activity-name a {
+  color: var(--color-primary);
+}
+
 .activity-description {
   font-size: var(--font-size-description);
   text-align: center;
